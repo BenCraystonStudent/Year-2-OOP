@@ -10,7 +10,7 @@ int main(int argc, char* argv[])
 	string rainbow[7] = { "Red", "Yellow", "Pink", "Green", "Orange", "Purple", "Blue" };
 	if (argc > 1)
 	{
-    commandLineInt = stoi(argv[2]);
+    commandLineInt = atoi(argv[1]);
 		cout << rainbow[commandLineInt -1] << endl;
 	}
 
